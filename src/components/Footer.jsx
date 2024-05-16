@@ -6,9 +6,9 @@ const Footer = () => {
   }
 
   return (
-    <div id="footer">
-      Footer<button onClick={clickMe}>Click Me Now Dev</button>
-    </div>
+    <footer>
+      <p>&copy; 2024 Book My Show</p>
+    </footer>
   );
 };
 export default Footer;
