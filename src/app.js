@@ -9,6 +9,7 @@ import About from "./components/about";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
 import Form from "./components/Form";
+import ClassVsFunction from "./components/ClassVsFunction";
 
 class App extends Component {
   render() {
@@ -21,6 +22,8 @@ class App extends Component {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/form" element={<Form />} />
+            <Route path="/counter" element={<Counter />} />
+            <Route path="/class-function" element={<ClassVsFunction />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
